@@ -118,7 +118,7 @@ try{
   }
 }catch(e){console.error('Firebase init failed',e)}
 const CLOUD_DOC=db?db.collection('ids_app').doc('data'):null;
-const APP_PIN='2026'; // غيّر الرقم ده لأي رقم سري تحبه
+const APP_PIN='2030'; // غيّر الرقم ده لأي رقم سري تحبه
 function pinGate(){
   if(localStorage.getItem('ids-app-unlocked')==='1')return true;
   var header=document.querySelector('.no-print');
